@@ -1,0 +1,378 @@
+* {
+  font-family: font-family: 'Roboto', sans-serif;
+}
+body {
+  background-color: white;
+}
+/*---------------------------CSS for Navbar----------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+body {
+  background-color: #eee;
+}
+
+.active1{
+  background-color: #fa7232;
+  padding: 7px;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 990px) {
+   .active1{
+    background-color:transparent;
+    border-radius: 0;
+   }
+}
+.navbar-nav>li>a {
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-right: 20px;
+  color: #fff;
+}
+.navbar-toggler {
+  padding: .20rem .50rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  border: 1px solid white;
+}
+.nav-link {
+  color: #fff !important;
+}
+.wrapper {
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  background-color: #fa7232;
+  clip-path: polygon(81% 0, 100% 0, 100% 50%, 100% 100%, 71% 100%);
+  transition: 1s all;
+}
+.navbar-brand {
+  color: #fff;
+  font-family: 'Allerta Stencil', sans-serif;
+  margin-bottom: 4px;
+  font-size: 27px;
+}
+.navbar-red:hover .wrapper {
+  clip-path: polygon(81% 0, 100% 0, 100% 50%, 100% 100%, 65% 100%);
+}
+.navbar-brand:hover {
+  color: #fff;
+}
+.navbar-red {
+  background-color: black;
+  color: #fff;
+}
+.all-show {
+  z-index: 10;
+}
+/*-------------------------------CSS for Cards----------------------------------*/
+
+.cardHover {
+  transition: 0.6s;
+}
+.cardHover:hover {
+  cursor: pointer;
+  color: white;
+  background-color: gray;
+}
+.imgHover {
+  transition: 1s;
+}
+.imgHover:hover {
+  cursor: pointer;
+  background-color: black;
+}
+/*----------------------------CSS for Testimonial-------------------------------*/
+
+body {
+  background-color: #eee;
+}
+.card {
+  border: none;
+}
+.user-content p {
+  margin-top: 5px;
+  font-size: 12px;
+}
+.ratings i {
+  color: blue;
+}
+.testimonialBorder {
+  border-radius: 14px;
+  transition: 0.8s;
+}
+.testimonialBorder:hover {
+  cursor: pointer;
+  background-color: #fa7232;
+  border-radius: 14px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+}
+/*-------------------------------CSS for Our Story-----------------------------*/
+
+/*-----------------------CSS for FAQ-------------------------------------------*/
+
+.faqborder {
+  border: 2px solid #fa7232;
+  border-radius: 14px;
+  transition: 0.3s;
+}
+.faqborder:hover {
+  border: none;
+  border-radius: 14px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+  background-color: white;
+}
+.faqcenter {
+  justify-content: center;
+  align-items: center;
+}
+/*-------------------------CSS for main Banner------------------------------------*/
+
+.header-bg {
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://images.pexels.com/photos/1581554/pexels-photo-1581554.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.text-box {
+  width: 90%;
+  top: 50%;
+  left: 50%;
+  color: white;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.text-box h1 {
+  font-size: 70px;
+}
+.text-box p {
+  font-size: 18px;
+  margin: 10px 0 20px;
+}
+@media screen and (max-width: 500px) {
+  .text-box h1 {
+    font-size: 35px;
+  }
+  .text-box p {
+    font-size: 12px;
+  }
+}
+/*------------------------Heading and Paragraph Styling--------------------------*/
+
+.heading {
+  font-size: 100px;
+  color: black;
+  font-weight: 600;
+}
+.paragraph {
+  font-size: 17px;
+  font-weight: 500;
+}
+.paragraph1 {
+  font-size: 13px;
+  font-weight: 500;
+}
+@media screen and (max-width: 470px) {
+  .paragraph1 {
+    font-size: 11px;
+    font-weight: 400;
+  }
+}
+.heading1 {
+  font-size: 60px;
+  font-weight: 600;
+}
+.heading2 {
+  font-size: 30px;
+  font-weight: 500;
+}
+.borderimg {
+  border-radius: 10px;
+}
+/*----------------------------------CSS for Buttons--------------------------------*/
+
+.hero-btn {
+  padding: 7px;
+  padding-left:15px ;
+  padding-right:15px ;
+  background-color: #fa7232;
+  border-radius: 7px;
+  color: white;
+  font-weight: 500;
+  transition: 0.7s;
+}
+.zero-btn {
+  font-weight: 500;
+  padding: 7px;
+  background-color: #fa7232;
+  border-radius: 7px;
+  color: white;
+  transition: 0.7s;
+}
+.hero-btn:hover {
+  background-color: white;
+  border-radius: 7px;
+}
+.zero-btn:hover {
+  padding: 7px;
+  background-color: white;
+  border-radius: 7px;
+  border: 1px solid #fa7232;
+}
+/*-----------------------------CSS for Subcription Form---------------------------*/
+
+/*-------------------------------CSS for Footer------------------------------------*/
+
+.footerLink a {
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  transition: 0.5s;
+}
+.footerLink a:hover {
+  color: black;
+}
+.footerMainLink a {
+  text-decoration: none;
+  font-size: 24px;
+  color: white;
+}
+.footerMainLink a:hover {
+  text-decoration: underline;
+}
+.bg-footer {
+  background-color: #fa7232;
+}
+@media screen and (max-width: 900px) {
+     .footerMainLink a{
+      font-size: 19px;
+     }
+}
+@media screen and (max-width: 700px) {
+     .footerMainLink a{
+      font-size: 16px;
+     }
+}
+/*-------------------------------------CSS for Services-------------------------------*/
+
+.services-bg {
+  border-radius: 25px;
+  background-color: white;
+  transition: 1s;
+}
+.services-bg:hover {
+  border-radius: 100px;
+  border: none;
+  background-color: #d3eaf2;
+}
+.banner-bg {
+  min-height: 60vh;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://images.pexels.com/photos/1579739/pexels-photo-1579739.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+/*-------------------------------------CSS for Explore More Page---------------------------------------------------------------*/
+
+.banner1-bg {
+  min-height: 60vh;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://images.pexels.com/photos/941861/pexels-photo-941861.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.exp-border {
+  border-radius: 10px;
+  border: 2px solid black;
+}
+/*-------------------------------------CSS for Menu-------------------------------------*/
+
+.menu-bg {
+  min-height: 60vh;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+/*------------------------------CSS for about Page-----------------------------------*/
+
+.about-bg {
+  min-height: 60vh;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://images.pexels.com/photos/674574/pexels-photo-674574.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.about-link1 {
+  width: 75%;
+  background-color: black;
+  color: white;
+}
+.about-link {
+  background-color: white;
+  color: black;
+}
+@media screen and (max-width: 1000px) {
+  .about-link {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    width: 100%;
+  }
+  .about-link1 {
+    width: 100%;
+  }
+}
+.about-link1:hover {
+  background-color: gray;
+}
+/*-------------------------------------CSS for Conatact Page---------------------------------------------- */
+
+.contact-bg {
+  min-height: 60vh;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://images.pexels.com/photos/313700/pexels-photo-313700.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.form-bg {
+  padding: 20px;
+  border: 2px solid #fa7232;
+  border-radius: 6px;
+}
+.form-img {
+  border-radius: 6px;
+}
+@media screen and (max-width: 768px) {
+  .form-bg {
+    width: 100%;
+    border-radius: 0;
+  }
+  .form-img {
+    margin-top: 40px;
+    border-radius: 0;
+  }
+}
+@media screen and (max-width: 996px) {
+  .form-bg {
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .form-bg {
+    width: 100%;
+    border-radius: 0;
+    border: none;
+  }
+}
